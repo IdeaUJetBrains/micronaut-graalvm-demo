@@ -96,3 +96,6 @@ Change it:
  
 
 
+Troubleshooting
+https://youtrack.jetbrains.com/issue/IDEA-331760/ It is not possible to set breakpoints for some classes/methods
+...

@@ -1,6 +1,37 @@
 
 <h2>Run/debug the Micronaut application in native (no JVM) mode inside docker container</h2>
 
+
+We build our native application with maven in jetbrains/graalvm-debugger image. 
+We use the result executable files in the `GraalVM Native Image` run configuration to debug.
+
+1. Run Maven run configuration on Docker target 
+   - Run on target: Docker
+       - Image to pull: jetbrains/graalvm-debugger:21  or jetbrains/graalvm-debugger:17
+       - Optional:
+           - Run options: add `-p 8080:8080`
+   - "Run": `package`
+   - "Profiles": `graalvm`
+   
+3. Configure `GraalVM Native Image` run configuration:
+    - Executable: `target/demo`
+    - Symbol file: `target/demo.debug`
+    - Run on target: select the same target, created on the (1) step (based on jetbrains/graalvm-debugger:17)
+
+4. Set break point to `UserController` class, `random` get method 
+5. Press "Debug" on the created `GraalVM Native Image` run configuration 
+6. Go to http://localhost:8080/users/random to stop on this endpoint.
+
+
+Troubleshooting
+https://youtrack.jetbrains.com/issue/IDEA-331760/ It is not possible to set breakpoints for some classes/methods
+
+
+
+
+//=================================================================================================================//
+//=================================================================================================================//
+OLD WAY (builds 233.*)
 We build our native application  with maven using docker-native packaging. 
 Then build docker debug graalvm image with coping there built classes and dependencies. 
 Then we take from this docker image the "application" executable file and run debug using it on docker target.
@@ -64,6 +95,4 @@ Change it:
 9. Go to http://localhost:8080/users/random to stop on this endpoint.
  
 
-Troubleshooting
-https://youtrack.jetbrains.com/issue/IDEA-331760/ It is not possible to set breakpoints for some classes/methods
-...
+

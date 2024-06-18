@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="graalvm-debug" type="GraalVmRunConfiguration" factoryName="GraalVmBinary">
-    <run-attributes version="1" native-image="$PROJECT_DIR$/target/application" target-environment="gdbserver">
+    <run-attributes version="1" native-image="$PROJECT_DIR$/target/application" symbol-info="$PROJECT_DIR$/target/application" target-environment="jetbrains/graalvm-debugger:21">
       <arguments />
       <module name="demo" />
     </run-attributes>

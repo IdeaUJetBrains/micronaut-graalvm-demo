@@ -27,6 +27,17 @@
           </config>
         </ContributedStateBase>
       </target>
+      <target name="WSL - Ubuntu" type="wsl" uuid="1727530a-0e3e-4304-a594-c86be9ae8a9b">
+        <config>
+          <option name="distributionMsId" value="Ubuntu" />
+          <option name="projectRootOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/tmp/tmp.zpOK654Syg&#10;, stderr=}/micronaut-graalvm-demo" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/home/jetbrains/java/graalvm22" />
+          </config>
+        </ContributedStateBase>
+      </target>
     </targets>
   </component>
 </project>

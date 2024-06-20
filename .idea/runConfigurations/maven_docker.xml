@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="maven_package" type="MavenRunConfiguration" factoryName="Maven">
+  <configuration default="false" name="maven_docker" type="MavenRunConfiguration" factoryName="Maven">
     <target name="jetbrains/graalvm-debugger:21" />
     <MavenSettings>
       <option name="myGeneralSettings" />
@@ -33,9 +33,7 @@
           <option name="multimoduleDir" />
           <option name="pomFileName" />
           <option name="profilesMap">
-            <map>
-              <entry key="graalvm" value="true" />
-            </map>
+            <map />
           </option>
           <option name="projectsCmdOptionValues">
             <list />

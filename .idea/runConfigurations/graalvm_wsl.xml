@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="graalvm_wsl" type="GraalVmRunConfiguration" factoryName="GraalVmBinary">
+    <run-attributes version="1" native-image="C:\Users\Olga.Pavlova\IdeaProjects\ALL_GRAALVM\micronaut-graalvm-demo\target\micronautDemo" symbol-info="C:\Users\Olga.Pavlova\IdeaProjects\ALL_GRAALVM\micronaut-graalvm-demo\target\micronautDemo.debug" target-environment="WSL - Ubuntu">
+      <arguments />
+    </run-attributes>
+    <method v="2" />
+  </configuration>
+</component>

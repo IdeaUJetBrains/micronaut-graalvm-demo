@@ -37,6 +37,29 @@
           <entry name="$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-context-propagation/4.0.0/micronaut-context-propagation-4.0.0.jar" />
           <entry name="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.5.7/reactor-core-3.5.7.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-inject-java/4.0.0/micronaut-inject-java-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core-processor/4.0.0/micronaut-core-processor-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-inject/4.0.0/micronaut-inject-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core/4.0.0/micronaut-core-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-aop/4.0.0/micronaut-aop-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/ow2/asm/asm/9.5/asm-9.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/javaparser/javaparser-symbol-solver-core/3.25.4/javaparser-symbol-solver-core-3.25.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/javaparser/javaparser-core/3.25.4/javaparser-core-3.25.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-graal/4.0.0/micronaut-graal-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/serde/micronaut-serde-processor/2.0.1/micronaut-serde-processor-2.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/serde/micronaut-serde-api/2.0.1/micronaut-serde-api-2.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-context/4.0.0/micronaut-context-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-json-core/4.0.0/micronaut-json-core-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-http/4.0.0/micronaut-http-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core-reactive/4.0.0/micronaut-core-reactive-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-context-propagation/4.0.0/micronaut-context-propagation-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.5.7/reactor-core-3.5.7.jar" />
         </processorPath>
         <module name="demo" />
       </profile>
